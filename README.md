@@ -1,21 +1,26 @@
-# 🚗 Analyzing Car’s Ex-Showroom Prices
+# 🚗 Car Performance & Price Analysis Dashboard  
 
-## 📌 Project Overview
-This project focuses on **Exploratory Data Analysis (EDA)** to understand how different car features influence the **Ex-Showroom Price** of vehicles.  
-The analysis aims to uncover pricing patterns, feature impact, and meaningful business insights using data visualization and statistical exploration.
+## 📌 Project Overview  
+This project presents an end-to-end data analysis workflow on car ex-showroom pricing data.
 
----
+The project includes:
+1️⃣ Data Cleaning & EDA using Python  
+2️⃣ Interactive Dashboard Development using Power BI  
 
-## 🎯 Objectives
-- Understand the structure and quality of the dataset  
-- Clean and preprocess raw automotive data  
-- Analyze numerical and categorical features affecting car prices  
-- Identify trends, patterns, and relationships through visualization  
-- Derive actionable business insights without using machine learning models  
+The goal is to understand how car features such as engine performance, body type, fuel type, and safety features influence pricing.
 
 ---
 
-## 📂 Dataset Information
+## 🎯 Project Objectives  
+- Clean and preprocess raw automotive dataset  
+- Perform Exploratory Data Analysis (EDA)  
+- Identify key features impacting car prices  
+- Build an interactive Power BI dashboard  
+- Derive business insights from pricing patterns  
+
+---
+
+## 📂 Dataset Information  
 - **Source:** Kaggle  
 - **Dataset Name:** Ex-Showroom Price of Cars  
 - **Total Features:** ~140  
@@ -23,79 +28,100 @@ The analysis aims to uncover pricing patterns, feature impact, and meaningful bu
 - **Data Types:** Numerical, Categorical, Binary  
 
 🔗 Dataset Link:  
-https://www.kaggle.com/datasets/harmeetsingh07/exshowroom-price
+https://www.kaggle.com/datasets/harmeetsingh07/exshowroom-price  
 
 ---
 
-## 🧹 Data Cleaning & Preparation
-The dataset contained missing values and inconsistencies which were handled using the following steps:
-- Filled missing numerical values using **median**
-- Handled categorical missing values using **mode** or `"Undefined"`
-- Corrected inconsistent formatting and data types
-- Retained valid outliers representing premium and luxury cars
+# 🐍 Phase 1: Data Cleaning & EDA (Python)
+
+## 🧹 Data Preparation  
+- Filled missing numerical values using median  
+- Handled categorical missing values using mode / "Undefined"  
+- Standardized column formats  
+- Preserved meaningful outliers (luxury segment)  
+- Exported cleaned dataset for dashboard development  
+
+## 📊 Exploratory Data Analysis  
+- Price distribution analysis  
+- Fuel Type vs Price comparison  
+- Body Type vs Price comparison  
+- Engine Specs vs Price  
+- Correlation analysis between features and price  
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+# 📊 Phase 2: Power BI Dashboard
 
-### 🔹 Univariate Analysis
-- Analyzed price distribution and key numerical features
-- Identified skewness and presence of outliers
-- Studied frequency distribution of categorical variables
+The cleaned dataset was imported into Power BI to build an interactive dashboard.
 
-### 🔹 Bivariate Analysis
-- Fuel Type vs Price
-- Body Type vs Price
-- Engine Specifications vs Price
-- Safety & Comfort Features vs Price
-
-### 🔹 Correlation Analysis
-- Identified strong relationships between engine performance features and price
-- Observed weak or inverse relationships between mileage and price
+## 🔹 Dashboard Features  
+- KPI Cards (Average Price, Average HP, etc.)  
+- Top 10 Manufacturers by Price  
+- Price by Body Type  
+- Interactive slicers (Fuel Type, Manufacturer)  
+- Performance vs Pricing comparison  
 
 ---
 
-## ⭐ Key Insights
-- Engine performance and body type strongly influence car pricing  
+## 📷 Dashboard Preview  
+(Add your screenshot file named `dashboard_preview.png` in the root folder)
+
+![Dashboard Preview](dashboard_preview.png)
+
+---
+
+# ⭐ Key Insights  
 - SUVs dominate higher price ranges  
-- Safety and comfort features are more common in premium vehicles  
-- Mileage-focused cars typically fall in the budget to mid-range segment  
+- Premium brands show higher average horsepower  
+- Safety & comfort features are more common in high-priced vehicles  
+- Budget cars focus more on mileage efficiency  
 
 ---
 
-## 💼 Business Insights
-- Manufacturers can optimize pricing by aligning features with target segments  
-- Customers can make informed decisions by comparing feature-to-price value  
-- Dealers can segment inventory based on price-driving attributes  
+# 💼 Business Impact  
+- Helps manufacturers align features with target segments  
+- Enables customers to compare feature-to-price value  
+- Supports inventory segmentation for dealerships  
 
 ---
 
-## ⚠️ Limitations
-- Dataset reflects static pricing and does not include market fluctuations  
-- Regional price variations are not considered  
-- Customer demand and brand perception are not quantified  
+# 📁 Project Structure  
+
+data/  
+python/  
+powerbi/  
+dashboard_preview.png  
+README.md  
+LICENSE  
 
 ---
 
-## 🛠️ Tools & Libraries Used
-- Python  
+# 🛠️ Tools & Technologies  
+
+## 🐍 Python  
 - Pandas  
 - NumPy  
 - Matplotlib  
 - Seaborn  
 
+## 📊 Power BI  
+- DAX  
+- Power Query  
+- Data Modeling  
+- Interactive Visualizations  
+
 ---
 
-## 📌 Conclusion
-This project demonstrates how **Exploratory Data Analysis** can uncover valuable insights from raw automotive data.  
-Without building predictive models, the analysis highlights key factors influencing car pricing and supports data-driven decision-making.
+# 📌 Conclusion  
+This project demonstrates a complete data analysis lifecycle — from raw data cleaning in Python to business-ready dashboard development in Power BI.
+
+It highlights practical data transformation, visualization, and analytical skills suitable for real-world business applications.
 
 ---
 
-## 👤 Author
-**Mohit Negi**  
+# 👤 Author  
+Mohit Negi  
 Aspiring Data Analyst  
 
-📧 Email: mohitnegi2442@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/mohit-negi-8abb82396
-
+📧 mohitnegi2442@gmail.com  
+🔗 https://www.linkedin.com/in/mohit-negi-8abb82396  
