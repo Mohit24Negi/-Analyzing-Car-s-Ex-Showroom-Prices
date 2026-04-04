@@ -64,13 +64,6 @@ The cleaned dataset was imported into Power BI to build an interactive dashboard
 
 ---
 
-## 📷 Dashboard Preview  
-(Add your screenshot file named `dashboard_preview.png` in the root folder)
-
-![Dashboard Preview](dashboard_preview.png)
-
----
-
 # ⭐ Key Insights  
 - SUVs dominate higher price ranges  
 - Premium brands show higher average horsepower  
