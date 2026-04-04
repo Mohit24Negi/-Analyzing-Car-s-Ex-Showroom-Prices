@@ -4,6 +4,7 @@
 This project presents an end-to-end data analysis workflow on car ex-showroom pricing data.
 
 The project includes:
+
 1️⃣ Data Cleaning & EDA using Python  
 2️⃣ Interactive Dashboard Development using Power BI  
 
